@@ -10,12 +10,10 @@ app.use(
         "chrome-extension://*"
     ],
     methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    allowedHeaders: ["Contentconst express = require("express");
+
   })
 );
-
-
-
 
 async function arrayBufferToText(arrayBuffer) {
   return "data";
@@ -50,5 +48,5 @@ app.get("/test", (req, res) => {
 
 
 app.listen(PORT, () =>
-  console.log(`✅ Server running at http://localhost:${PORT}`)
+  console.log(`Server running at http://localhost:${PORT}`)
 );
