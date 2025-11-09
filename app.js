@@ -10,7 +10,7 @@ app.use(
         "chrome-extension://*"
     ],
     methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Contentconst express = require("express");
+    allowedHeaders: ["Content-Type", "Authorization"],
 
   })
 );
